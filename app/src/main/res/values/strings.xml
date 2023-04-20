@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RegraDeTres</string>
+    <string name="coluna1"> Coluna 1 </string>
+    <string name="coluna2"> Coluna 2 </string>
+    <string name="price_liter">Preço do Litro em R$</string>
+    <string name="calculate">Calcular</string>
+
+
+    <string name="total">X=</string>
+    <string name="resultado">O Resultado é:</string>
+    <string name="fill_all_fields">Preencha todos os campos</string>
+
+
+</resources>

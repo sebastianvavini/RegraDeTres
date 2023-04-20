@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+
+        >
+
+
+        <EditText
+            android:id="@+id/editText_Numero1_C1"
+            android:padding="16dp"
+            android:hint=" Se : "
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <!-- ======================================== -->
+
+    <EditText
+        android:id="@+id/editText_Numero1_C2"
+        android:padding="16dp"
+        android:hint="Resulta em:"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+        <EditText
+            android:id="@+id/editTextNumero2_C1"
+            android:padding="16dp"
+            android:hint="Então:"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total"/>
+
+        <Button
+
+            android:id="@+id/button_calculate"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="@string/calculate"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
